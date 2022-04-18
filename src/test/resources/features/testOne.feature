@@ -1,4 +1,4 @@
 Feature: first test cucumber
-  Scenario: test cucumber + selenide
+  Scenario: first test cucumber + selenide
     When call test1
     Then call test2
