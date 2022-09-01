@@ -21,8 +21,8 @@ public class AutotestsApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.setProperty("selenide.browser", "Chrome");
-		open(environment.getProperty("browser.url"));
-		Thread.sleep(3000);
+		//System.setProperty("selenide.browser", "Chrome");
+		//open(environment.getProperty("browser.url"));
+		//Thread.sleep(3000);
 	}
 }
